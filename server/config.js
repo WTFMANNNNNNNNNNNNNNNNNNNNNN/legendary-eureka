@@ -3,7 +3,7 @@ module.exports = {
 
     // Game server domain.
     // If the host is 'localhost:NUMBER', the NUMBER must be the port setting.
-    host: "localhost:3000",
+    host: "thefrindservertest.netlify.app",
 
     // Which port to run the web server on.
     port: 3000,
@@ -22,43 +22,16 @@ module.exports = {
 
     // Servers
     // This is where your server's settings are stored.
-   
      SERVERS: [
         {
             // This is important and usefull, if your VM (Your machine that hosts the website stuff) doesnt support multi ports, you are forced to set this to true because it will load via through the main server.
             LOAD_ON_MAINSERVER: false,
             // This is very important where the host is actually being hosted. Keep in mind that the ports gets changed to 3000, to 3001, and it repeats with the other servers.
             // Keep in mind that if "LOAD_ON_MAINSERVER" is set to true then this code will be replaced with the main server's host instead.
-            HOST: "localhost:3001",
+            HOST: "thefrindservertest.netlify.app/#lol1",
             // The port where to host from.
             // Keep in mind that if "LOAD_ON_MAINSERVER" is set to true then this code will be replaced with the main server's port instead.
-            PORT: 3001,
-            // Get the gamemode you want to select with.
-            GAMEMODE: ["opentdm", "growth"],
-            // The region, can be anything.
-            REGION: "local",
-            // How many players can join until it's full.
-            MAX_PLAYERS: 15,
-            // The server ID. Example: (<Yourwebsitename>/#<ServerID>)
-            // Important! You cannot make the same server id with a other one or else the server selector will get confused.
-            SERVER_ID: "loc",
-            // This is where you can override settings in the config.js file, and as long the gamemode's config doesnt override it.
-            PROPERTIES: {
-                // Amount of bots.
-                BOTS: 100,
-            }
-        },
-    ],
-     SERVERS: [
-        {
-            // This is important and usefull, if your VM (Your machine that hosts the website stuff) doesnt support multi ports, you are forced to set this to true because it will load via through the main server.
-            LOAD_ON_MAINSERVER: false,
-            // This is very important where the host is actually being hosted. Keep in mind that the ports gets changed to 3000, to 3001, and it repeats with the other servers.
-            // Keep in mind that if "LOAD_ON_MAINSERVER" is set to true then this code will be replaced with the main server's host instead.
-            HOST: "localhost:3002",
-            // The port where to host from.
-            // Keep in mind that if "LOAD_ON_MAINSERVER" is set to true then this code will be replaced with the main server's port instead.
-            PORT: 3002,
+            PORT: #lol1,
             // Get the gamemode you want to select with.
             GAMEMODE: ["opentdm", "growth"],
             // The region, can be anything.
