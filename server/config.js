@@ -28,10 +28,10 @@ module.exports = {
             LOAD_ON_MAINSERVER: false,
             // This is very important where the host is actually being hosted. Keep in mind that the ports gets changed to 3000, to 3001, and it repeats with the other servers.
             // Keep in mind that if "LOAD_ON_MAINSERVER" is set to true then this code will be replaced with the main server's host instead.
-            HOST: "thefrindservertest.netlify.app/#lol1",
+            HOST: "thefrindservertest.netlify.app",
             // The port where to host from.
             // Keep in mind that if "LOAD_ON_MAINSERVER" is set to true then this code will be replaced with the main server's port instead.
-            PORT: #lol1,
+            PORT: 3000,
             // Get the gamemode you want to select with.
             GAMEMODE: ["opentdm", "growth"],
             // The region, can be anything.
@@ -40,7 +40,7 @@ module.exports = {
             MAX_PLAYERS: 15,
             // The server ID. Example: (<Yourwebsitename>/#<ServerID>)
             // Important! You cannot make the same server id with a other one or else the server selector will get confused.
-            SERVER_ID: "loc",
+            SERVER_ID: "1",
             // This is where you can override settings in the config.js file, and as long the gamemode's config doesnt override it.
             PROPERTIES: {
                 // Amount of bots.
