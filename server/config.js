@@ -3,7 +3,7 @@ module.exports = {
 
     // Game server domain.
     // If the host is 'localhost:NUMBER', the NUMBER must be the port setting.
-    host: "thefrindservertest.netlify.app",
+    host: "frinds.github.com",
 
     // Which port to run the web server on.
     port: 3000,
@@ -28,7 +28,7 @@ module.exports = {
             LOAD_ON_MAINSERVER: false,
             // This is very important where the host is actually being hosted. Keep in mind that the ports gets changed to 3000, to 3001, and it repeats with the other servers.
             // Keep in mind that if "LOAD_ON_MAINSERVER" is set to true then this code will be replaced with the main server's host instead.
-            HOST: "thefrindservertest.netlify.app/#test1",
+            HOST: "frinds.github.com/#test1",
             // The port where to host from.
             // Keep in mind that if "LOAD_ON_MAINSERVER" is set to true then this code will be replaced with the main server's port instead.
             PORT: #test1,
@@ -40,7 +40,7 @@ module.exports = {
             MAX_PLAYERS: 15,
             // The server ID. Example: (<Yourwebsitename>/#<ServerID>)
             // Important! You cannot make the same server id with a other one or else the server selector will get confused.
-            SERVER_ID: "1",
+            SERVER_ID: "test#1",
             // This is where you can override settings in the config.js file, and as long the gamemode's config doesnt override it.
             PROPERTIES: {
                 // Amount of bots.
