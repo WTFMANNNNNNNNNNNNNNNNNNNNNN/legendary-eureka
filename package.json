@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "server/index.js",
   "scripts": {
-    "start": "node --no-lazy index"
-    "test": "echo \"No test specified\" && exit 0"
+    "start": "node --no-lazy server/index.js",
     "test": "jest"
   },
   "dependencies": {
