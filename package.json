@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node --no-lazy index"
     "test": "echo \"No test specified\" && exit 0"
+    "test": "jest"
   },
   "dependencies": {
     "ws": "^8.18.3"
